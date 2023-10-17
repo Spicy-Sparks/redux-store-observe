@@ -1,6 +1,6 @@
 {
   "name": "redux-store-observe",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Subscribe to redux store changes",
   "scripts": {
     "build": "tsc",
