@@ -1,0 +1,27 @@
+{
+  "name": "redux-store-observe",
+  "version": "1.0.0",
+  "description": "Subscribe to redux store changes",
+  "scripts": {
+    "build": "tsc",
+    "test": "test"
+  },
+  "keywords": [
+    "redux",
+    "store",
+    "observe",
+    "subscribe",
+    "monitor",
+    "watch"
+  ],
+  "author": "Spicy Sparks",
+  "license": "ISC",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "devDependencies": {
+    "redux": "^4.2.1"
+  }
+}
