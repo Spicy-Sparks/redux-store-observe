@@ -4,6 +4,7 @@ Redux Store observer
 ## Why?
 
 Redux provides you with a `subscribe()` method so that you can be notified when the state changes. However, it does not let you know what changed or subscribe to partial slices of the store. `redux-store-observe` will let you do that, also with custom equality functions.
+`redux-store-observe` completely supports typescript and reflects the types of your state.
 
 ## Install
 
