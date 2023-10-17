@@ -24,8 +24,9 @@ const createStoreObserver = <TState>(store: Store<TState>): StoreObserver<TState
       let prevValue = getValue(store.getState())
       const unsubscribe = store.subscribe(() => {
         let nextValue = getValue(store.getState())
-        if (equalityFn(prevValue, nextValue)) {
-          onChange(nextValue);
+        if (!equalityFn(prevValue, nextValue)) {
+          prevValue = nextValue
+          onChange(nextValue)
         }
       })
       return unsubscribe
